@@ -1,0 +1,81 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid b659eeb6-8323-42cc-8ecf-ccbf017dfca2)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 53.34 35.56) (size 67.31 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2ad64ed8-8e11-4932-b13a-41b2b5d11b76)
+    (property "Sheetname" "MCU" (at 53.34 34.8484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mcu.kicad_sch" (at 53.34 61.5446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "can2usb"
+        (path "/b659eeb6-8323-42cc-8ecf-ccbf017dfca2" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 160.02 80.01) (size 33.02 11.43) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6a01dd51-b280-4402-8f24-5e46af2dcb51)
+    (property "Sheetname" "CAN" (at 160.02 79.2984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "can.kicad_sch" (at 160.02 92.0246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "CAN_TX" input (at 193.04 83.82 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 33ff9968-6f1d-4b26-b5b7-a5fcffa4b284)
+    )
+    (pin "CAN_RX" output (at 193.04 87.63 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 0cc1911d-74e8-4592-87b9-9183c6ac4285)
+    )
+    (pin "CAN_LO" bidirectional (at 160.02 83.82 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 27e1ef6d-c3e4-49fc-8b80-87380fc43616)
+    )
+    (pin "CAN_HI" bidirectional (at 160.02 87.63 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 208fe412-add1-4e2d-8a73-65f660669869)
+    )
+    (instances
+      (project "can2usb"
+        (path "/b659eeb6-8323-42cc-8ecf-ccbf017dfca2" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 139.7 36.83) (size 45.72 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b715227e-9b59-411f-a5c9-a4534410e12a)
+    (property "Sheetname" "IO" (at 139.7 36.1184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "io.kicad_sch" (at 139.7 61.5446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "can2usb"
+        (path "/b659eeb6-8323-42cc-8ecf-ccbf017dfca2" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
